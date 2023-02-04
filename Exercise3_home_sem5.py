@@ -40,19 +40,3 @@ for k in range(9):
             print(matrix[i][j], end=" ")
         print()
     winner()
-
-    
-'''
-def matrix(list):
-    for i in range(3):
-        for j in range(10):
-
-for i in range(1,10):
-    n1 = int(input("Player1, were to put the X?: "))
-    list[n1-1] = 'X'
-    print(list)
-    if 
-    n2 = int(input("Player2, were to put the O?: "))
-    list[n2-1] = 'O'
-    print(list)
-'''
