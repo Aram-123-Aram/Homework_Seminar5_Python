@@ -16,7 +16,9 @@ print("answer_text =", answer_text)
 text = input('Enter the text= ')
 list1 = text.split()
 print(list1)
+
 list2 = list(filter(lambda x: not 'абв' in x, list1))
 print(list2)
+
 text_result = ' '.join(list2)
 print(text_result)
